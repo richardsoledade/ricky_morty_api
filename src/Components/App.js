@@ -22,6 +22,9 @@ function App() {
     <div>
       <HeaderApp pesquisa={pesquisa} setPesquisa={setPesquisa} />
 
+    <hr></hr>
+
+
       <div className="container">
         {filtrarPersonagens.map((person) => {
           return <CardCharacter person={person} />;
