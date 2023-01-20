@@ -1,0 +1,48 @@
+.item {
+  background-color: azure;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  height: 100%;
+  padding: 10px;
+}
+
+.image {
+  min-width: 50%;
+}
+
+.info {
+  background-color: azure;
+  height: 100%;
+  width: 100%;
+}
+
+.cardSub {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.card-body {
+  padding: 0;
+}
+
+.card-title {
+  font-size: 1.1rem;
+}
+
+.card {
+  overflow: hidden;
+}
+
+.cardSub {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.cardfot {
+  display: flex;
+}
